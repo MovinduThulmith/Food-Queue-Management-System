@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="416.0" prefWidth="606.0" style="-fx-background-color: #4e7ca3;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx.QueueController">
+   <children>
+      <GridPane alignment="CENTER" layoutX="14.0" layoutY="177.0" prefHeight="223.0" prefWidth="445.0" style="-fx-background-color: #d5e7f7; -fx-background-radius: 3px;">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="customer1_1" text="..........." textFill="#291e40" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="35.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="customer1_2" text="..........." textFill="#291e40" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="35.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="customer2_3" text="..........." textFill="#291e40" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="35.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="customer2_2" text="..........." textFill="#291e40" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="35.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="customer2_1" text="..........." textFill="#291e40" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="35.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="customer3_1" text="..........." textFill="#291e40" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="35.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="customer3_2" text="..........." textFill="#291e40" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="35.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="customer3_3" text="..........." textFill="#291e40" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="35.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="customer3_4" text="..........." textFill="#291e40" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets left="35.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="customer3_5" text="..........." textFill="#291e40" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets left="35.0" />
+               </GridPane.margin></Label>
+            <Label text="Cashier  1" textFill="#291e40">
+               <GridPane.margin>
+                  <Insets left="30.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="AkayaKanadaka-Regular" size="18.0" />
+               </font></Label>
+            <Label text="Chashier  2" textFill="#291e40" GridPane.columnIndex="1">
+               <GridPane.margin>
+                  <Insets left="30.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="AkayaKanadaka-Regular" size="18.0" />
+               </font></Label>
+            <Label text="Cashier  3" textFill="#291e40" GridPane.columnIndex="2">
+               <GridPane.margin>
+                  <Insets left="30.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="AkayaKanadaka-Regular" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+      <GridPane layoutX="471.0" layoutY="177.0" prefHeight="223.0" prefWidth="121.0" style="-fx-background-color: #d5e7f7; -fx-background-radius: 3px;">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Waiting List" textFill="#291e40">
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin>
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+            <Label fx:id="waitingCustomer1" text="..........." textFill="#291e40" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="40.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="waitingCustomer2" text="..........." textFill="#291e40" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="40.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="waitingCustomer3" text="..........." textFill="#291e40" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="40.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="waitingCustomer4" text="..........." textFill="#291e40" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets left="40.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="waitingCustomer5" text="..........." textFill="#291e40" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets left="40.0" />
+               </GridPane.margin>
+            </Label>
+         </children>
+      </GridPane>
+      <TextField fx:id="searchName" layoutX="53.0" layoutY="30.0" onAction="#searchCustomer" prefHeight="33.0" prefWidth="186.0" promptText="Search Name" style="-fx-background-radius: 3px; -fx-background-color: white;" />
+      <TextArea fx:id="customerInfo" layoutX="399.0" layoutY="12.0" prefHeight="143.0" prefWidth="193.0" style="-fx-background-radius: 3px; -fx-background-color: #d5e7f7;" />
+      <Button layoutX="117.0" layoutY="71.0" mnemonicParsing="false" onAction="#searchCustomer" style="-fx-background-color: #b4d9fa; -fx-background-radius: 3px;" text="Search" textFill="#291e40">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="188.0" layoutY="71.0" mnemonicParsing="false" onAction="#resetSearch" style="-fx-background-color: #b4d9fa; -fx-background-radius: 3px;" text="Reset" textFill="#291e40">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

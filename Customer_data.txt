@@ -1,0 +1,17 @@
+Customer details in queue 1:
+ - 1 movi thul
+ - 1 iroo priya
+
+Customer details in queue 2:
+ - 2 jenu shama
+
+Customer details in queue 3:
+ - 3 thush dee
+
+
+Remaining burger stock: 50
+
+Incomes of each queue:
+Queue 1 - 0
+Queue 2 - 0
+Queue 3 - 0
